@@ -1,4 +1,5 @@
 import menuData from './menu.json';
+import burger from '../../assets/burger-planet.jpg';
 import './menu.css';
 
 class Menu {
@@ -20,7 +21,7 @@ class UI {
       <div class="item">
         <div class="name">${item["name"]}</div>
         <div class="price">${item["price"]} euros</div>
-        <img class="image" src=${item["image"]} alt="image of a burger">
+        <img class="image" src=${burger} alt="image of a burger">
       </div>
       `;
     })
